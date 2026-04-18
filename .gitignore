@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Flask
+instance/
+
+# Data files (DO NOT PUSH)
+data/*.txt
+
+# Java
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
