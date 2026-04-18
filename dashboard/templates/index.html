@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cyber SentinelX</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="header">Cyber SentinelX – Adaptive Threat Monitoring Platform</div>
+
+<div class="container">
+
+<div class="top-grid">
+<div class="box"><h3>Risk</h3><p>{{ risk }}</p></div>
+<div class="box"><h3>Alerts</h3><p>{{ alert_count }}</p></div>
+<div class="box"><h3>Time</h3><p>{{ timestamp }}</p></div>
+<div class="box {{ status|lower }}"><h3>Status</h3><p>{{ status }}</p></div>
+</div>
+
+<div class="card">
+<h3>⚡ Simulate Attack</h3>
+<button onclick="runAttack('insider')">Insider</button>
+<button onclick="runAttack('burst')">Burst</button>
+<button onclick="runAttack('phishing')">Phishing</button>
+</div>
+
+<div class="card">
+<h3>📊 Alerts</h3>
+<div class="alert-box" id="alertBox">
+{% for a in alerts %}
+<div class="alert">{{ a }}</div>
+{% endfor %}
+</div>
+</div>
+
+<div class="card">
+<h3>🧠 Correlation</h3>
+<p id="correlationText">{{ correlation }}</p>
+</div>
+
+<div class="card">
+<h3>🔴 Live Monitoring</h3>
+<div class="alert-box" id="liveBox">
+<div class="alert">Waiting for live events...</div>
+</div>
+</div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
