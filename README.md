@@ -48,44 +48,15 @@ Flask Dashboard (Live Monitoring)
 ```
 cyber-sentinelx/
 │
-├── auth/                      # Java Authentication Module
-│   └── LoginSystem.java
-│
-├── core/                      # Python Detection + Simulation
-│   ├── soc_detector.py
-│   ├── simulate_attack.py
-│   ├── url_analyzer.py
-│   └── live_monitor.py        # (if used for generating live logs)
-│
-├── dashboard/                 # Flask Web App
-│   ├── app.py
-│   │
-│   ├── templates/
-│   │   ├── index.html
-│   │   ├── login.html
-│   │   └── signup.html
-│   │
-│   └── static/
-│       ├── style.css
-│       ├── script.js
-│       ├── auth.css           # (if used for login UI)
-│       └── auth.js            # (if used)
-│
-├── data/                      # Runtime Data (DO NOT PUSH)
-│   ├── users.txt
-│   ├── login_log.txt
-│   ├── failed_log.txt
-│   ├── live_activity.txt
-│   └── final_report.txt
-│
-├── docs/                      # (NEW 🔥 for professionalism)
-│   ├── architecture.png       # optional diagram
-│   └── screenshots/           # dashboard screenshots
-│
-├── .gitignore
-├── LICENSE
+├── auth/
+├── core/
+├── dashboard/
+├── data/
+├── docs/
 ├── README.md
-└── requirements.txt 
+├── LICENSE
+├── .gitignore
+├── requirements.txt
 
 ```
 
