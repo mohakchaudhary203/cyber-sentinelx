@@ -1,0 +1,9 @@
+FAILED LOGIN: mohakchaudhary203@gmail.com at 11:50:55.344079200
+ALERT: ('SYSTEM', 'Multiple failed logins', 'HIGH')
+FAILED LOGIN: mohakchaudhary203@gmail.com at 11:54:27.930856100
+ALERT: ('SYSTEM', 'Multiple failed logins', 'HIGH')
+ALERT: ('SYSTEM', 'Multiple failed logins', 'HIGH')
+FAILED LOGIN: mohakchaudhary203@gmail.com at 12:02:01.735757
+ALERT: ('SYSTEM', 'Multiple failed logins', 'HIGH')
+LOGIN SUCCESS: mohakchaudhary203@gmail.com  at 12:02:47.878039900
+ALERT: ('SYSTEM', 'Multiple failed logins', 'HIGH')
